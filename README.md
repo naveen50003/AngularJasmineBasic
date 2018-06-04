@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # To Find Largest Word and Length Of The Word In Given Sentence
 
 In this project, we will find the longest substring in the given string along with the length of largest sub string. So, to explain this project I developed AngularJS 1.x
