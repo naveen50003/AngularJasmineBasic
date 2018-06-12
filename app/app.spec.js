@@ -14,9 +14,15 @@ describe('find largest sub-string',function(){
 
         /** Testing the functionality of getLongSubString */
         it('Testing the function getLongSubString',function(){
-            myCtrl.inputStr = "The cow jumped over the moon"
+            myCtrl.inputStr = "The cow jumped over the moon";
             myCtrl.getLongSubString();
             expect(myCtrl.resultLargestString).toEqual(resultLargestString);
+        })
+
+        /** Type Checking of inputStr */
+        it('Type Checking of input variable is string',function(){
+            myCtrl.inputStr = "The cow jumped over the moon";
+            expect(myCtrl.inputStr).toEqual(jasmine.any(String));
         })
     })
 })
